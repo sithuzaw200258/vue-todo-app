@@ -1,0 +1,30 @@
+/* Import Google Font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    font-size: 1rem;
+    font-family: 'Poppins',sans-serif;
+}
+
+.created{
+    animation: 0.5s fadeInDown;
+}
+.done{
+    text-decoration: line-through !important;
+    animation: 0.5s shakeX;
+}
+
+.label-name {
+    color: #538459;
+    font-weight: inherit;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #538459 !important;
+    font-size: 18px;
+    opacity: 1; /* Firefox */
+  }
+
+.deleted {
+    animation: 0.5s shakeX;
+}
